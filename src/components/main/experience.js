@@ -4,14 +4,14 @@ export default function Experience() {
   const [comp, setComp] = useState("itm");
 
   const getActive = (name) => {
-    if (name == comp) {
+    if (name === comp) {
       return "text-green-200 bg-slate-800 p-2";
     }
     return "text-white cursor-pointer p-2";
   };
 
   const getContent = () => {
-    if (comp == "itm") {
+    if (comp === "itm") {
       return (
         <div>
           <div className="text-xl">
@@ -48,7 +48,7 @@ export default function Experience() {
           </div>
         </div>
       );
-    } else if (comp == "oclay") {
+    } else if (comp === "oclay") {
       return (
         <div>
           <div className="text-xl">

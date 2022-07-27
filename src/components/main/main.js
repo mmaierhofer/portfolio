@@ -1,6 +1,6 @@
 import React from "react";
 import Welcome from "./welcome";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import About from "./about";
 import Experience from "./experience";
 import Contact from "./contact";
