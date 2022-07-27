@@ -223,7 +223,7 @@ export default function Project() {
           <div>
             <div className="h-96 w-full relative">
               <div className="left-0 w-full absolute">
-                <img src={image} alt="preview"/>
+                <img src={image} alt="preview" />
               </div>
               <div className="w-3/5 absolute right-0 h-2/3 top-1/4 flex justify-center items-center bg-slate-800/90 text-white"></div>
               <div className="w-3/5 absolute right-0 h-2/3 top-1/4 flex p-4 text-white flex-col ">
@@ -264,7 +264,7 @@ function useInterval(callback, delay) {
     function tick() {
       savedCallback.current();
     }
-    if (delay !=== null) {
+    if (delay !== null) {
       let id = setInterval(tick, delay);
       return () => clearInterval(id);
     }
