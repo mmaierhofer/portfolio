@@ -8,19 +8,34 @@ export default function Header() {
         <div className="w-full flex justify-end">
           <div className="w-1/3 flex justify-between text-white font-mono">
             <Link to={"/"}>
-              <div>00. Welcome</div>
+              <div>
+                <span className="text-green-200">00.</span>
+                <br /> Welcome
+              </div>
             </Link>
             <Link to={"/about"}>
-              <div>01. About</div>
+              <div>
+                <span className="text-green-200">01.</span>
+                <br /> About
+              </div>
             </Link>
             <Link to={"/experience"}>
-              <div>02. Experience</div>
+              <div>
+                <span className="text-green-200">02.</span>
+                <br /> Experience
+              </div>
             </Link>
             <Link to={"/projects"}>
-              <div>03. Projects</div>
+              <div>
+                <span className="text-green-200">03.</span>
+                <br /> Projects
+              </div>
             </Link>
             <Link to={"/contact"}>
-              <div>04. Contact</div>
+              <div>
+                <span className="text-green-200">04.</span>
+                <br /> Contact
+              </div>
             </Link>
           </div>
         </div>

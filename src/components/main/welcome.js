@@ -5,10 +5,10 @@ export default function Welcome() {
     <>
       <div className="w-full h-full flex justify-center items-center">
         <div className="w-1/2">
-          <div className="text-white text-2xl">Hey, I am</div>
+          <div className="text-slate-300 text-2xl">Hey, I am</div>
           <div className="text-white text-8xl font-bold">Maxi Maierhofer.</div>
-          <div className="text-white text-5xl font-bold">
-            An passionate Backend Engineer for everything Web.
+          <div className="text-slate-300 text-5xl font-bold">
+            A passionate Backend Engineer for everything Web.
           </div>
           <div className="text-white text-xl mt-4">My Tech Stack:</div>
           <div className="text-white text-xl">
