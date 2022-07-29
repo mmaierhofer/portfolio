@@ -32,6 +32,7 @@ jobs:
           node-version: v16.x
 
       - name: Build Node assets
+        if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         env:
           CI: true
           SITE_URL: ${{ steps.project.outputs.site-url }}
@@ -48,4 +49,4 @@ jobs:
           branch-id: ${{ steps.project.outputs.branch-id }}
           service-host: api-eu.ionos.space
           api-key: ${{ secrets.IONOS_API_KEY }}
-          dist-folder: public
+          dist-folder: build
