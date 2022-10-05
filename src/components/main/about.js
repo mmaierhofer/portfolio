@@ -23,13 +23,8 @@ export default function About() {
             South America in order to broaden my horizon.
           </div>
           <div className="text-white text-md text-justify">
-            After Corona took me back a little early, I found myself working in
-            a fast paced startup, trying to stir up the german automotive
-            industry.
-          </div>
-          <div className="text-white text-md text-justify">
-            From October on I will officially have my Master of Science degree,
-            which I attained in Information Systems.
+            From October 2022 on I will officially have my Master of Science degree,
+            which I attained in Information Systems at the University of Passau.
           </div>
         </div>
       </div>
